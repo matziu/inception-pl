@@ -4,6 +4,11 @@ Wszystkie istotne zmiany polskiego pakietu językowego Inception. Format wg [Kee
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-07-03
+
+### Zmienione
+- „Guided Tours" ujednolicone na **„Samouczki"** (4 stringi). Było niespójnie: nagłówek panelu głównego „Wycieczki z przewodnikiem", a opcja profilu i teksty pomocy „przewodniki". Teraz: nagłówek „Samouczki", opcja „Pokaż skróty samouczków". Trasy PTZ kamer (osobne znaczenie „tour") pozostają bez zmian jako „trasa PTZ".
+
 ## [0.1.0] — 2026-07-03
 
 Pierwsze wydanie na GitHubie: pełne tłumaczenie interfejsu WWW (8327/8327 stringów), build czysty (0 kolizji `unique=`, 0 błędów placeholderów `{n}`).
