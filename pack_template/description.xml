@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<description xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Polish</name>
+  <isoCode>pl</isoCode>
+  <isoSubCode>PL</isoSubCode>
+  <version>7.2.1.8507</version>
+  <protocolVersion>1</protocolVersion>
+</description>

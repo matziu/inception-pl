@@ -1,0 +1,2 @@
+# Build jest bajtowo wierny oryginałom — żadnej konwersji końców linii przy checkout/commit
+* -text

@@ -1,0 +1,124 @@
+﻿EN (Inception);PL (kanoniczne);Kategoria;Źródło;Uwagi
+User;Użytkownik;Obiekty główne;branż.;
+Area;Strefa;Obiekty główne;usr;Decyzja. Pełny termin branżowy: Strefa alarmowa. Zone w Inception = tylko sprzęt/strefa czasowa — brak kolizji
+Door;Przejście;Obiekty główne;usr;Decyzja: fizyczne drzwi/brama wraz z osprzętem
+Reader;Czytnik;Obiekty główne;branż.;
+Credential;Identyfikator;Obiekty główne;usr;Decyzja. Fizyczny token = Nośnik
+Card;Karta;Obiekty główne;branż.;
+Remote Fob;Zdalny pilot;Obiekty główne;usr;Pilot RF (bezprzewodowy, z przyciskami). Decyzja: fob→pilot
+Fob (pilot RF);Pilot;Obiekty główne;usr;np. Fob Template→Szablon pilota, Fobs→Piloty, Fob Serial→Numer seryjny pilota
+Fob (zbliżeniowy = credential);Brelok;Obiekty główne;usr;TYLKO gdy 'fob' = token zbliżeniowy odczytywany przez czytnik (def. identyfikatora)
+Input;Linia wejściowa;Obiekty główne;usr;Decyzja: forma pełna (krótko: Wejście tylko przy ciasnym UI)
+Output;Linia wyjściowa;Obiekty główne;usr;"Decyzja: forma pełna; w komunikatach dynamicznych też pełna"
+Permission;Uprawnienie;Obiekty główne;branż.;
+Permissions;Uprawnienia (prawa dostępu);Obiekty główne;branż.;
+Web Page Profile;Profil dostępu do panelu;Obiekty główne;usr;Live review: ujednolicone z 'profil strony internetowej/WWW/webowej' (77 stringów). Spójne z 'Dostęp do panelu zarządzania'
+Schedule;Harmonogram;Obiekty główne;branż.;
+Function Key;Klawisz funkcyjny;Obiekty główne;branż.;F1-F4, *, #
+Local Command;Komenda lokalna;Obiekty główne;branż.;
+Automation;Automatyka;Obiekty główne;branż.;
+Automation Node;Węzeł automatyki;Obiekty główne;branż.;
+Door Group;Grupa przejść;Obiekty główne;branż.;
+Area Group;Grupa stref;Obiekty główne;branż.;Analogia do Grupa przejść/węzłów
+Access;Dostęp;Dostęp;branż.;
+Access Control;Kontrola dostępu;Dostęp;branż.;
+Access Granted;Przyznanie dostępu;Dostęp;branż.;Stan: Dostęp przyznany
+Access Denied;Odmowa dostępu;Dostęp;branż.;Wariant spotykany: Autoryzacja negatywna
+Request to Exit (REX);Przycisk wyjścia;Dostęp;branż.;
+Anti-passback;Anti-passback;Dostęp;branż.;Zostawione z ang. (konwencja branżowa)
+Occupancy;Obecność;Dostęp;branż.;Limit obecnych, Kontrola obecnych
+Occupancy Limit;Limit obecnych;Dostęp;branż.;
+Operator;Operator;Dostęp;branż.;Obsługa systemu (VISO)
+Remote / Web Access;Dostęp do panelu zarządzania;Dostęp;usr;Live review (podmenu w zarządzaniu użytkownikami)
+Master;Master;Dostęp;branż.;Bez tłumaczenia
+Time & Attendance (T&A);RCP (rejestracja czasu pracy);Dostęp;branż.;
+Arm;Uzbrojenie / uzbroić;Alarm i uzbrojenie;branż.;
+Disarm;Rozbrojenie / rozbroić;Alarm i uzbrojenie;branż.;
+Armed;Uzbrojona;Alarm i uzbrojenie;branż.;O strefie (r. żeński)
+Disarmed;Rozbrojona;Alarm i uzbrojenie;branż.;
+Arming;Uzbrajanie;Alarm i uzbrojenie;branż.;
+Auto-Arm;Automatyczne uzbrojenie;Alarm i uzbrojenie;usr;Partia 1 (nie „Auto-uzbrojenie”)
+Clear Alarm;Skasuj alarm;Alarm i uzbrojenie;usr;Partia 1
+Cancel Siren;Wycisz sygnalizator;Alarm i uzbrojenie;usr;Partia 1
+Perimeter Arm;Uzbrojenie zewnętrzne;Alarm i uzbrojenie;usr;Partia 2 (nie „obwodowe”)
+Walk Test;Test obchodowy;Alarm i uzbrojenie;usr;Partia 2
+Isolate / Isolated;Izolować / Zaizolowana;Alarm i uzbrojenie;usr;"Partia 2; perf. „zaizolować”; zdarz.: „Użytkownik {0} zaizolował linię wejściową {1}”"
+Detector;Czujka;Alarm i uzbrojenie;usr;Partia 2
+Audio / Audible Alarm;Alarm dźwiękowy / akustyczny;Alarm i uzbrojenie;std;Audio=dźwiękowy, Audible=akustyczny
+Cabinet (Tamper);Obudowa (sabotaż obudowy);Alarm i uzbrojenie;std;Partia 2
+Badge (v);Odczyt karty;Dostęp;usr;"Partia 2; np. „3-krotny odczyt karty”"
+Feedback;Sygnalizacja zwrotna;Zdarzenia i monitorowanie;std;Reakcja czytnika (LED/buzzer)
+Storage Unit;Jednostka (boks);Obiekty główne;std;"Do potw.; magazyn samoobsługowy"
+Site;Obiekt (lokalizacja);Obiekty główne;std;Cała instalacja
+Alarm;Alarm;Alarm i uzbrojenie;branż.;
+Tamper;Sabotaż;Alarm i uzbrojenie;branż.;Alarm sabotażowy
+Siren;Sygnalizator (akustyczny);Alarm i uzbrojenie;usr;Pilotaż: zatwierdzone zamiast „Syrena”
+Entry Delay;Opóźnienie na wejście;Alarm i uzbrojenie;usr;Pilotaż (zamiast „Czas na wejście”)
+Exit Delay;Opóźnienie na wyjście;Alarm i uzbrojenie;usr;Pilotaż (zamiast „Czas na wyjście”)
+State;Stan;Logika i automatyka;branż.;
+Module/System Health;Stan modułu / systemu;Logika i automatyka;usr;Live review: 'health'→'stan' (NIE 'zdrowie'). 'health issues'→'problemy ze stanem'
+Input Sealed / Unsealed;Normalny / Wyzwolony;Logika i automatyka;usr;Konwencja branżowa (stan normalny / wyzwolenie wejścia). Sealed≠drzwi Closed (='Zamknięte'). Ujednolicono 28 str. (był chaos: uszczelniony/zapieczętowany/'niespokojne linie')
+States Entered;Wykryte stany;Logika i automatyka;usr;Test sprzętu — stany, w jakie wchodziły wejścia (było błędnie 'Wejścia w stan')
+Normal;Stan normalny;Logika i automatyka;branż.;
+Active;Aktywny / wyzwolony;Logika i automatyka;branż.;Branżowo: wyzwolenie linii
+Trigger (v);wyzwalać;Logika i automatyka;branż.;
+Trigger (n);Wyzwolenie;Logika i automatyka;branż.;
+Trigger Condition;Warunek wyzwalający;Logika i automatyka;std;Pojęcie z Inception
+Condition;Warunek;Logika i automatyka;std;
+Action;Akcja;Logika i automatyka;branż.;
+Pulse;Impuls (chwilowy);Logika i automatyka;std;
+Lock;Zamek;Przejście i osprzęt;branż.;
+Electric Strike;Elektrozaczep;Przejście i osprzęt;branż.;
+Magnetic Lock;Zwora (elektromagnetyczna);Przejście i osprzęt;branż.;
+Unlock;Odblokowanie / odblokować;Przejście i osprzęt;branż.;
+Locked;Zablokowane;Przejście i osprzęt;branż.;
+Unlocked;Odblokowane;Przejście i osprzęt;branż.;
+Door Contact / Position;Czujnik otwarcia drzwi;Przejście i osprzęt;branż.;
+Break Glass / Breakglass;KAC Przycisk ewakuacyjny;Przejście i osprzęt;usr;"Decyzja: brak jednolitego standardu, KAC=konwencja branżowa. 'Broken'→'uruchomiony'. UWAGA: glass-break DETECTOR = 'czujka stłuczenia szkła' (inne urządzenie!)"
+Forced Door;Siłowe otwarcie drzwi;Przejście i osprzęt;usr;Pilotaż: stan „siłowego otwarcia”
+Door Held Open;Drzwi przytrzymane otwarte;Przejście i osprzęt;usr;Pilotaż
+Held Open Too Long;Zbyt długie otwarcie drzwi;Przejście i osprzęt;std;Faza „zbyt długiego otwarcia”
+Lift;Winda;Windy;branż.;
+Floor;Piętro;Windy;branż.;
+Lift Car;Kabina windy;Windy;std;
+Time;Czas;Czas;branż.;
+Date;Data;Czas;branż.;
+Time Period;Przedział czasowy;Czas;std;
+Time Zone;Strefa czasowa;Czas;std;Nie mylić z Area
+Daylight Saving;Czas letni;Czas;std;
+Holiday;Święto / dzień wolny;Czas;std;
+Event;Zdarzenie;Zdarzenia i monitorowanie;branż.;
+Review;Rejestr zdarzeń;Zdarzenia i monitorowanie;usr;Pilotaż
+Notification;Powiadomienie;Zdarzenia i monitorowanie;std;
+Monitoring;Monitorowanie (dozór);Zdarzenia i monitorowanie;branż.;
+Monitoring Station;Stacja monitorowania;Zdarzenia i monitorowanie;usr;Pilotaż
+Report;Raport;Zdarzenia i monitorowanie;std;
+Message;Komunikat;Zdarzenia i monitorowanie;std;
+Warning;Ostrzeżenie;Zdarzenia i monitorowanie;std;
+Controller;Kontroler;Sprzęt i moduły;branż.;
+Module;Moduł;Sprzęt i moduły;branż.;
+Expander;Ekspander;Sprzęt i moduły;branż.;
+Terminal;Terminal;Sprzęt i moduły;branż.;Terminal dostępu
+Keypad;Klawiatura;Sprzęt i moduły;branż.;
+Firmware;Firmware;Sprzęt i moduły;branż.;Spotykane też: oprogramowanie firmowe
+Serial Number;Numer seryjny;Sprzęt i moduły;std;
+Encryption Key;Klucz szyfrujący;Sprzęt i moduły;branż.;Spotykane też: klucz komunikacyjny
+Save;Zapisz;Interfejs (UI);branż.;
+Cancel;Anuluj;Interfejs (UI);std;
+Delete;Usuń;Interfejs (UI);std;
+Add;Dodaj;Interfejs (UI);std;
+Edit;Edytuj;Interfejs (UI);std;
+Configure;Konfiguruj;Interfejs (UI);branż.;Konfiguracja
+Settings;Ustawienia;Interfejs (UI);branż.;
+Options;Opcje;Interfejs (UI);branż.;
+Enabled;Włączone;Interfejs (UI);usr;Pilotaż (wariant „załączona” odrzucony)
+Disabled;Wyłączone;Interfejs (UI);usr;Pilotaż
+Default;Domyślny;Interfejs (UI);branż.;
+Select;Wybierz;Interfejs (UI);branż.;
+Back;Wstecz;Interfejs (UI);std;
+Next;Dalej;Interfejs (UI);std;
+PIN;PIN;Bez tłumaczenia;branż.;
+OSDP;OSDP;Bez tłumaczenia;branż.;
+Wiegand;Wiegand;Bez tłumaczenia;branż.;
+REST API;REST API;Bez tłumaczenia;std;
+LAN / IP / NTP / DHCP;LAN / IP / NTP / DHCP;Bez tłumaczenia;branż.;

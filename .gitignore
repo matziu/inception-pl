@@ -1,0 +1,10 @@
+# Ustawienia lokalne Claude Code
+.claude/
+
+# Zewnętrzne materiały referencyjne (osób trzecich) — tylko lokalnie, poza repo
+*.pdf
+*.txt
+_gen_glosariusz.py
+
+# Artefakt budowania — publikowany jako załącznik w GitHub Releases
+*.irlanguage
